@@ -15,7 +15,7 @@ A water level controller is a device that manages water levels on a variety of s
 overhead tank becomes full. In this way it becomes easy to ensure 24 hours water supply without any kind of interruption.
 
 
-System Circuit Diagram
+**System Circuit Diagram**
 | :--: |
 ![CIRCUIT DIAGRAM](https://github.com/user-attachments/assets/aa4162f3-7aaa-4a53-9b26-b1925ab7f122)
 
@@ -50,9 +50,8 @@ System Circuit Diagram
 6) It indicates that the tank's water level is FULL if P0.2 is HIGH.
 7) At this point, set the P0.7 pin to LOW to turn the motor off automatically.
 ```
-## *Program Flowchart*
+**Program Flowchart**
 | :--: |
-
 ![FLOWCHART WLC](https://github.com/user-attachments/assets/f1d90f21-281f-4bac-88a6-ada585e1b6f9)
 
 ## *Operating Mechanism of Water Level Controller*
@@ -97,28 +96,24 @@ Step 5 - If water in upper tank touches the upper sensor, turn off the motor and
 ### Simulation Result State - 1
 
 ![TANK IS EMPTY](https://github.com/user-attachments/assets/6fc368f4-19a7-472c-ad39-a5a4c1ce640b)
-
 | :--: |
 **TANK IS EMPTY AND MOTOR IS ON**
 
 ### Simulation Result State - 2
 
 ![TANK FILLING](https://github.com/user-attachments/assets/186e57da-17a6-4090-8644-5bbfccc0293c)
-
 | :--: |
-**TANK IS FILLING AND MOTOR IS ON**
+**TANK FILLING AND MOTOR IS ON**
 
 ### Simulation Result State - 3
 
 ![TANK IS MID](https://github.com/user-attachments/assets/ee0a1a81-2ffb-46d1-b4ca-fccc696762f8)
-
 | :--: |
 **TANK IS MID AND MOTOR IS ON**
 
 ### Simulation Result State - 4
 
 ![TANK IS FULL](https://github.com/user-attachments/assets/b022212e-43e2-4ca2-ad1d-4812d1b02932)
-
 | :--: |
 **TANK IS FULL AND MOTOR IS OFF**
 
