@@ -40,7 +40,7 @@ overhead tank becomes full. In this way it becomes easy to ensure 24 hours water
 | :--: |
 ![CIRCUIT DIAGRAM](https://github.com/user-attachments/assets/aa4162f3-7aaa-4a53-9b26-b1925ab7f122)
 
-## *Component Used*
+## *Components Used*
 - AT89S52 Microcontroller (or any 8051 based Microcontroller)
 - 8051 Programmer (Programming Board)
 - 11.0592 MHz Quartz Crystal
@@ -114,7 +114,7 @@ Step 5 - If water in upper tank touches the upper sensor, turn off the motor and
 ## *Future scope*
 - Automatic water level monitoring system has a good scope in future especially for agriculture sector. There are any areas where we need water level controller. It could be agricultural fields, overhead tanks. We can make this project wireless by using NRF transmitter and receiver.
 - In this system, future modifications can also be done like interface of GSM module to send SMS alerts to the user.
-- 
+  
 ## *References*
 - https://www.electronicshub.org/water-level-controller-using-8051-microcontroller/
 - http://www.circuitstoday.com/water-level-controller-using-8051
