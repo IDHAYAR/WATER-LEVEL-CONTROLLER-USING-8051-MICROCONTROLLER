@@ -10,10 +10,31 @@ The term "water level controller" refers to an electronic device or circuit pack
 
 Water Level Controller using 8051 Microcontroller project will help in automatically controlling the water motor by sensing the water level in a tank. This article explains how to detect and control the water level in an overhead tank or any other container. This system monitors the water level of the tank and automatically switches ON the motor whenever tank is empty. 
 
-## *Need of Project*
+## *Motivation*
 A water level controller is a device that manages water levels on a variety of systems such as water tanks, pumps and swimming pools. The basic function of a water level controller is to regulate water flow and optimize system performance. One of the main advantages of water level control devices includes the ability to control power fluctuations when the motor is switched on. Most of these devices ensures uninterrupted water supply by filling the overhead tank once it is below level. The motor power is switched on when the overhead tank becomes empty and switches off automatically when the underground tank is empty or the 
 overhead tank becomes full. In this way it becomes easy to ensure 24 hours water supply without any kind of interruption.
 
+## *Applications*
+- It is used in like applications like storage, tank, boilers e.t.c. to indicate the level of water inside.
+- It can be used to calculate incoming and outgoing water in large reservoirs.
+- Fuel level indicator in vehicles.
+- It can be used to measure underground storage of water.
+- Used in big buildings where manual monitoring is difficult.
+- Used in industries to control the liquid level automatically.
+- Automatic water level controllers can be used in Homes apartments, commercial complexes.
+
+## *Advantages*
+- Easy to install.
+- Very little maintenance.
+- Compact design.
+- Automatic water level indicators ensure no overflows or running of dry pumps.
+- Saves money by using less water and electricity.
+- Can help avoid seepage of walls and roofs due to tanks overflowing.
+
+
+## *Limitations*
+- The Rust, Foul and Deteriorate.
+- Wire use in the tank can be replaced every two years.
 
 **System Circuit Diagram**
 | :--: |
@@ -50,9 +71,6 @@ overhead tank becomes full. In this way it becomes easy to ensure 24 hours water
 6) It indicates that the tank's water level is FULL if P0.2 is HIGH.
 7) At this point, set the P0.7 pin to LOW to turn the motor off automatically.
 ```
-**Program Flowchart**
-| :--: |
-![FLOWCHART WLC](https://github.com/user-attachments/assets/f1d90f21-281f-4bac-88a6-ada585e1b6f9)
 
 ## *Operating Mechanism of Water Level Controller*
 ``` ruby
@@ -62,35 +80,7 @@ Step 3 - If water in upper tank is below lower sensor, turn on the motor and dis
 Step 4 - If water in upper tank is above lower sensor and below the mid sensor, turn on the motor and display the message ‘Tank is empty and Motor is on’.
 Step 5 - If water in upper tank touches the upper sensor, turn off the motor and display the message ‘Tank is full and motor is off’.
 ```
-## *Applications*
-- It is used in like applications like storage, tank, boilers e.t.c. to indicate the level of water inside.
-- It can be used to calculate incoming and outgoing water in large reservoirs.
-- Fuel level indicator in vehicles.
-- It can be used to measure underground storage of water.
-- Used in big buildings where manual monitoring is difficult.
-- Used in industries to control the liquid level automatically.
-- Automatic water level controllers can be used in Homes apartments, commercial complexes.
 
-## *Advantages*
-- Easy to install.
-- Very little maintenance.
-- Compact design.
-- Automatic water level indicators ensure no overflows or running of dry pumps.
-- Saves money by using less water and electricity.
-- Can help avoid seepage of walls and roofs due to tanks overflowing.
-
-
-## *Limitations*
-- The Rust, Foul and Deteriorate.
-- Wire use in the tank can be replaced every two years.
-
-## *Future scope*
-- Automatic water level monitoring system has a good scope in future especially for agriculture sector. There are any areas where we need water level controller. It could be agricultural fields, overhead tanks. We can make this project wireless by using NRF transmitter and receiver.
-- In this system, future modifications can also be done like interface of GSM module to send SMS alerts to the user.
-
-## *Conclusion*
-- This type of water level controller will reduce the human interference. The power consumption of the motor and the wastage of water because of unwanted overflow can be controlled.
-- The whole system operates automatically. So it does not need any expert person to operate it. It is not so expensive. This design has much more scope for future research and development. 
 ## *Results*
 
 ### Simulation Result State - 1
@@ -117,7 +107,14 @@ Step 5 - If water in upper tank touches the upper sensor, turn off the motor and
 | :--: |
 **TANK IS FULL AND MOTOR IS OFF**
 
+## *Conclusion*
+- This type of water level controller will reduce the human interference. The power consumption of the motor and the wastage of water because of unwanted overflow can be controlled.
+- The whole system operates automatically. So it does not need any expert person to operate it. It is not so expensive. This design has much more scope for future research and development.
 
+## *Future scope*
+- Automatic water level monitoring system has a good scope in future especially for agriculture sector. There are any areas where we need water level controller. It could be agricultural fields, overhead tanks. We can make this project wireless by using NRF transmitter and receiver.
+- In this system, future modifications can also be done like interface of GSM module to send SMS alerts to the user.
+- 
 ## *References*
 - https://www.electronicshub.org/water-level-controller-using-8051-microcontroller/
 - http://www.circuitstoday.com/water-level-controller-using-8051
